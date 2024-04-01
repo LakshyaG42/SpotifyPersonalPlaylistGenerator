@@ -12,7 +12,7 @@ const songSchema = mongoose.Schema(
         },
         emotion: {
             type: String,
-            enum: ['happy', 'sad', 'energetic', 'relaxing', 'motivated', 'romantic', 'inspirational', 'intense', 'peaceful', 'heartbroken'],
+            enum: ['happy', 'sad', 'energetic', 'relaxing', 'motivated', 'romantic', 'inspirational', 'intense', 'peaceful', 'heartbroken', 'angry',],
             required: false
         },
         genre: {
